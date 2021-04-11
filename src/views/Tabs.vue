@@ -8,6 +8,6 @@
 import TabComponent from "../components/TabComponent.vue";
 export default {
   components: { TabComponent },
-  name: "Home",
+  name: "Tab",
 };
 </script>
