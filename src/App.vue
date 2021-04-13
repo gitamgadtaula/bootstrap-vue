@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <nav-bar></nav-bar>
+    <br />
+    <div class="container">
     <router-view></router-view>
+    </div>
   </div>
 </template>
 <script>
@@ -32,5 +35,8 @@ export default {
       color: #42b983;
     }
   }
+}
+.container{
+  padding:20px;
 }
 </style>

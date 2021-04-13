@@ -9,7 +9,7 @@ import DropDown from "../components/DropDown.vue";
 import Calender from "../components/Calender.vue";
 import Table from "../components/Table.vue";
 import Skeleton from "../components/Skeleton.vue";
-import Progress from "../components/Progress.vue";
+import Progress from "../views/Progress.vue";
 
 const routes = [
   {

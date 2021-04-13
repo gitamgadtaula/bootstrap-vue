@@ -39,7 +39,6 @@
 export default {
   methods: {
     redirectTo(path) {
-      debugger;
       this.$router.push(`/${path}`);
     },
   },
